@@ -4,6 +4,7 @@ import Offers from './components/Offers.jsx';
 import Plan from './components/Plan.jsx';
 import Indoor from './components/Indoor.jsx';
 import Slider from './components/Slider.jsx';
+import Email from './components/Email.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Plan />
       <Indoor />
       <Slider />
+      <Email />
     </div>
   );
 }

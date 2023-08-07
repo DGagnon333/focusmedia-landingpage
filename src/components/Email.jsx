@@ -1,5 +1,4 @@
 import emailjs from "emailjs-com";
-import React from 'react';
 
 export default function ContactUs() {
 
@@ -33,7 +32,7 @@ export default function ContactUs() {
                             <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                         </div>
                         <div className="col-8 pt-3 mx-auto">
-                            <input type="submit" className="btn btn-info" value="Send Message"></input>
+                            <button type="submit" className="rounded-full">Send message</button>
                         </div>
                     </div>
                 </form>

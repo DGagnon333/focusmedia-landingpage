@@ -1,21 +1,21 @@
-import Hero from './components/Hero.jsx';
-import Navbar from './components/Navbar.jsx';
-import Offers from './components/Offers.jsx';
-import Plan from './components/Plan.jsx';
-import Indoor from './components/Indoor.jsx';
-import Slider from './components/Slider.jsx';
-import Email from './components/Email.jsx';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import About from './pages/About';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
     <div>
+    <Router>
       <Navbar />
-      <Hero />
-      <Offers />
-      <Plan />
-      <Indoor />
-      <Slider />
-      <Email />
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/About" element={<About />} />
+      </Routes>
+      <Footer />
+    </Router>
+      
     </div>
   );
 }

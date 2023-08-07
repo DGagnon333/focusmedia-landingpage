@@ -27,6 +27,7 @@
       }
     },
     "include": [
-      "src"
-, "public/images"    ]
+      "src",
+      "public/images",
+      "src/pages"  ]
 }

@@ -3,7 +3,6 @@ import Offers from '../components/Offers.jsx';
 import Plan from '../components/Plan.jsx';
 import Indoor from '../components/Indoor.jsx';
 import Slider from '../components/Slider.jsx';
-import Pricing from 'components/Pricing.jsx';
 
 function Home(){
     return(
@@ -11,7 +10,6 @@ function Home(){
             <Hero />
             <Offers />
             <Plan />
-            <Pricing />
             <Indoor />
             <Slider />
         </div>

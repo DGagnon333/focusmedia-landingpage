@@ -41,7 +41,7 @@ function Pricing(){
       <div className='w-full px-20 flex flex-col align-middle'>
             <h1 className='font-bold text-6xl text-center pb-8'>Pricing</h1>
             <div className="flex flex-col items-center text-base">
-                <img src={Logo} height={200} width={200} />
+                <img src={Logo} height={200} width={200} alt="focusmedia logo" />
                 <p className='py-2'>"<strong>Revolutionize</strong> the marketing strategies of <strong>real 
                 estate agents</strong> through the <strong>implementation of innovative 
                 photography</strong> and <strong>cutting-edge technological solutions</strong>."</p>

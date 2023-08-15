@@ -5,7 +5,7 @@ function About(){
         <div className='w-full px-20'>
             <h1 className='font-bold text-4xl text-center'>About Us</h1>
             <div className='flex flex-col items-center'>
-                <img src={Logo} height={200} width={200} />
+                <img src={Logo} height={200} width={200} alt='focusmedia logo' />
             </div>
             <h2 className='font-bold text-2xl text-gray-800 pb-5'>Our Mission</h2>
             <div className='text-center'>

@@ -18,12 +18,19 @@ function Plan() {
         </div>
         {/*right side*/}
         <div className='flex flex-col h-full justify-center'>
-            <h3 className='text-5xl md:text-6xl font-bold'>Plan Our Next Visit</h3>
-            <p className='text-2xl py-6'>Sunt est ut velit laborum excepteur aliqua cillum sunt amet veniam.</p>
-            <p className='pb-6'>Enim qui irure id veniam id amet eiusmod est Lorem nisi nisi nisi do.</p>
+            <h3 className='text-5xl md:text-6xl font-bold'>Get in touch</h3>
+            <p className='text-2xl py-6'>Ready to elevate your property marketing to new heights? 
+            Contact us today to discuss your requirements and receive a personalized quote. Our 
+            team is eager to assist you in bringing your vision to life.</p>
         </div>
-        <button className='border-black mr-4 hover:shadow-xl'>Learn More</button>
-        <button className='bg-black text-white mr-4 border-black hover:shadow-xl'>Book a Visit</button>
+        <button  className=' border-black mr-4 hover:shadow-xl'> 
+          <a href='/About'>
+            Learn More
+          </a>
+        </button>
+        <button className='bg-black text-white mr-4 border-black hover:shadow-xl'>
+          <a href='footer'>Contact us</a>
+        </button>
     </div>
   )
 }

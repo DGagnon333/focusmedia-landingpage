@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { HiMenuAlt3 } from 'react-icons/hi';
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -12,10 +12,16 @@ function Navbar() {
       document.body.style.overflow = 'scroll';
     }
   }
-
+  
+  const navigate = useNavigate();
   // When the user clicks on the button, scroll to the top of the document
   const goToTop = () => {
+    if (window.location.pathname === "/" || window.location.pathname === "/Home"){
       window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    else{
+      navigate('/');
+    }
   }
   //
 

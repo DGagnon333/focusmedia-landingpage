@@ -1,5 +1,5 @@
 import Email from './Email'
-import {FaInstagram} from 'react-icons/fa'
+import {FaInstagram, FaTiktok} from 'react-icons/fa'
 
 function Footer() {
   return (
@@ -42,6 +42,9 @@ function Footer() {
             <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
                 <a href='https://www.instagram.com/thisisfocusmedia/' target='_blank'>
                     <FaInstagram size={30}/>
+                </a>
+                <a href='https://www.tiktok.com/@thisisfocusmedia' target='_blank'>
+                    <FaTiktok size={30}/>
                 </a>
             </div>
         </div>

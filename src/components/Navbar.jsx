@@ -20,11 +20,11 @@ function Navbar() {
   //
 
   return (
-    <div className='sticky top-0 z-50 w-full flex justify-between p-4 items-center bg-black'>
+    <div className='sticky top-0 z-50 w-full flex justify-between p-2 items-center bg-black'>
       <button className='border-0'>
-        <h1 id="to-top-button" onClick={goToTop} className='text-white font-bold text-2xl z-20'>Focus Media</h1>
+        <h1 id="to-top-button" onClick={goToTop} className='font-["Helvetica"] text-white font-bold text-2xl z-20'>Focus Media</h1>
       </button>
-      <HiMenuAlt3 onClick={handleNav} className='z-20 text-white cursor-pointer' size={25} />
+      <HiMenuAlt3 onClick={handleNav} className='z-20 text-white cursor-pointer' size={30} />
       <div
         className={nav ?
           'ease-in duration-200 fixed text-gray-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex-col z-10' :

@@ -52,7 +52,7 @@ function Slider() {
   return (
     <div className='max-w-[1400px] h-[580px] w-full m-auto px-4 relative group'>
         <div 
-        className='2-full h-full rounded-2xl bg-center bg-cover duration-500' 
+        className='w-full h-full rounded-2xl bg-center bg-cover duration-500' 
         style={{backgroundImage: `url(${slides[currentIndex].url})`}}></div>
         {/* Left Arrow */}
         <div className='absolute top-[50%] -translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full p-2

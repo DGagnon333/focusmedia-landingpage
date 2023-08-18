@@ -2,7 +2,7 @@
 module.exports = {
   theme:{
     fontFamily: {
-      'sans': ['Evogria', 'Helvetica', 'Arial']
+      'sans': ['Evogria', 'Helvetica', 'Arial', 'Quicksand']
     }
   },
   content: ["./src/**/*.{html,js,jsx}"],

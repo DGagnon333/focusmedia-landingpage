@@ -37,8 +37,8 @@ function Footer() {
             </div>
         </div>
 
-        <div className='flex flex-col max-w-[1400px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500'>
-            <p className='py-4'>2023 FocusMedia, All rights reserved</p>
+        <div className='flex flex-col max-w-[1400px] px-1 py-2 mx-auto justify-between sm:flex-row text-center text-gray-500'>
+            <p className='py-2'>2023 FocusMedia, All rights reserved</p>
             <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
                 <a href='https://www.instagram.com/thisisfocusmedia/' target='_blank'>
                     <FaInstagram size={30}/>

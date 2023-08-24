@@ -7,7 +7,7 @@ function Navbar() {
   const handleNav = () => {
     setNav(!nav);
     if (!nav) {
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflow = 'scroll';
     } else {
       document.body.style.overflow = 'scroll';
     }
@@ -23,7 +23,6 @@ function Navbar() {
       navigate('/');
     }
   }
-  //
 
   return (
     <div className='sticky top-0 z-50 w-full flex justify-between p-2 items-center bg-black'>
@@ -33,13 +32,29 @@ function Navbar() {
       <HiMenuAlt3 onClick={handleNav} className='z-20 text-white cursor-pointer' size={30} />
       <div
         className={nav ?
-          'ease-in duration-200 fixed text-gray-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex-col z-10' :
-          'absolute top-0 h-screen left-[100%] ease-in duration-200 z-10'}>
+          'ease-in duration-200 fixed text-gray-300 left-0 top-0 w-full h-screen bg-black/80 px-4 py-7 flex-col z-10' :
+          'absolute top-0 h-screen left-[100%] ease-in duration-0 z-10'}>
         <ul className='flex flex-col fixed w-full h-full items-center justify-center'>
-          <Link to="/" className='font-bold text-2xl p-8'>Home</Link>
-          <Link to="/Pricing" className='font-bold text-2xl p-8'>Pricings</Link>
-          <li className='font-bold text-2xl p-8'>Contact</li>
-          <Link to="/About" className='font-bold text-2xl p-8'>About</Link>
+          <li>
+            <button onClick={()=>{ setNav(false); navigate("/")}} className='font-bold text-2xl p-8 border-0'>
+              Home
+            </button>
+          </li>
+          <li>
+            <button onClick={()=>{ setNav(false); navigate("/Pricing")}} className='font-bold text-2xl p-8 border-0'>
+              Pricing
+            </button>
+          </li>
+          <li>
+            <button onClick={()=>{ setNav(false); navigate("/Contact")}} className='font-bold text-2xl p-8 border-0'>
+              Contact
+            </button>
+          </li>
+          <li>
+            <button onClick={()=>{ setNav(false); navigate("/About")}} className='font-bold text-2xl p-8 border-0'>
+              About
+            </button>
+          </li>
         </ul>
       </div>
     </div>

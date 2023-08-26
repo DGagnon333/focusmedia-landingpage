@@ -1,40 +1,41 @@
 import PricingCard from "../components/PricingCard";
-import Logo from '../images/logo.png';
+import Logo from '@Images/logo.png';
+import Image1 from '@Images/VintageHouse/DSCF1709.jpg'
 
 function Pricing(){
     const packagePhotos = [
       "15 photos edited of the exterior",
-      "4K quality",
+      "Quality: 48 Megapixels",
       "Multiple angles, heights, zoom, etc.",
-      "1 revision allowed for photos",
-      "Files delivered within 24 hours after capturing the content",
+      "One content review allowed",
+      "Content delivered within 72 hours after capture",
   ]
     const packageVideos = [
-      "15 photos edited of the exterior",
-      "Video of the exterior of the property with light editing",
-      "Option to add personal advertising to videos/photos",
-      "4K quality and 60 FPS",
-      "2 revisions allowed for photos/videos",
-      "Files delivered within 48 hours after capturing the content",
+      "15 Exterior Drone Photos",
+      "Exterior video with minor editing",
+      "Option to include your personal advertisement in the video/photos",
+      "Photo Quality: 48 Megapixels | Video Quality: 4k at 60 frames per second",
+      "One content review allowed",
+      "Content delivered within 4 to 5 days after capture",
     ];
     const packagePro = [
-      "20 photos edited of the exterior",
-      "Highly edited video of the exterior AND interior of the property",
-      "Option to add personal advertising to videos/photos",
-      "4K quality and 60 FPS",
-      "3 revisions allowed for photos/videos",
-      "Files delivered within 48 hours after capturing the content",
+      "25 exterior AND interior photos with drone and camera",
+      "Video of the exterior AND interior with high-end editing",
+      "Ability to add your personal ad to the video/photos",
+      "48MP Photo Quality | 4k and 60 frames per second videos",
+      "Content revision permitted",
+      "Content delivered within 4-5 days after content capture",
     ];
-    const pakcageFull = [
-      "40 photos edited of the exterior and interior",
-      "Drone video of the exterior AND interior of the property, highly edited",
-      "Creation of an Instagram Reel and TikTok for your social media",
-      "Formatting each photo and video to be suitable for each platform of your choice (Instagram, TikTok, Facebook, Realtor, Centris, etc.)",
-      "Option to add personal advertising to videos/photos",
-      "4K quality and 60 FPS",
-      "3 revisions allowed for photos/videos",
-      "Files delivered within 48 hours after capturing the content",
-
+    const packageFull = [
+      "40 exterior and interior photos with drone and camera",
+      "High-end drone video from outside AND inside",
+      "Matterport 3D Virtual Tour for the entire property",
+      "Creating an Intagram Reel and Tiktok for your social networks",
+      "Format each photo and video to make them compatible with the platforms of your choice (Instagram, TikTok, Facebook, Realtor.ca, Centris, etc.)",
+      "Ability to add your personal ad to the video/photos",
+      "48MP Photo Quality | 4k and 60 frames per second videos",
+      "Content revision permitted",
+      "Content delivered within 4-5 days after content capture",
     ];
     return(
     <div>
@@ -74,26 +75,51 @@ function Pricing(){
           title="Full package"
           price="1200$+tx"
           details="Details about Package 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          packageInfo={pakcageFull}
+          packageInfo={packageFull}
           />
       </div>
-      <div className="h-40 py-2 mx-2 flex align-center">
-        <div className="w-full border-gray-500 border-2 rounded-2xl"></div>
-      </div>
-      <div className="p-4"></div>
-      <div className="h-40 py-2 mx-2 flex align-center">
-        <div className="w-full border-gray-500 border-2 rounded-2xl"></div>
-      </div>
-      <div className="p-4"></div>
+      <div class="flex items-center justify-center h-[800px] bg-center bg-cover bg-blur-md" style={{ backgroundImage: `url(${Image1})` }}>
+        <div class="p-8 backdrop-blur-3xl rounded-3xl shadow-md">
+          <h1 class="text-4xl font-semibold mb-6">Optional Add-Ons</h1>
+          <ul class="list-disc pl-6 mb-6">
+            <li>Nighttime Exterior Photography: $175</li>
+            <li>3D Matterport Tour: $375</li>
+            <li>Additional Photos: 5 photos for $20</li>
+            <li>Drone Video: $300</li>
+            <li>3D Model: $699</li>
+          </ul>
 
-      <div className="h-40 py-2 mx-2 flex align-center">
-        <div className="w-full border-gray-500 border-2 rounded-2xl"></div>
-      </div>
-      <div className="p-4"></div>
+          <h1 class="text-4xl font-semibold mb-6">Interior Photography Packages</h1>
+          <div class="mb-6">
+            <h2 class="text-lg font-semibold">Classic Package</h2>
+            <ul class="list-disc pl-6 mb-6">
+              <li>$225</li>
+              <li>5 to 20 photos</li>
+            </ul>
+          </div>
+          <div class="mb-6">
+            <h2 class="text-lg font-semibold">Premium Package</h2>
+            <ul class="list-disc pl-6 mb-6">
+              <p>$275</p>
+              <p>21 to 40 photos</p>
+            </ul>
+          </div>
+          <div class="mb-6">
+            <h2 class="text-lg font-semibold">Deluxe Package</h2>
+            <ul class="list-disc pl-6 mb-6">
+              <p>$315</p>
+              <p>More than 40 photos</p>
+            </ul>
+          </div>
 
-      <div className="h-40 py-2 mx-2 flex align-center">
-        <div className="w-full border-gray-500 border-2 rounded-2xl"></div>
+          <p class="mb-4">Travel fee of $50 applies for distances over 50km from Deux-Montagnes</p>
+          <p>Taxes are not included in the prices</p>
+
+          <p class="mt-6 text-lg">Have specific requests or only want a part of a package? Contact us, and we'll find a solution!</p>
+          <p class="text-lg">If you have specific requests or only want a portion of a certain package, reach out to us!</p>
+        </div>
       </div>
+
     </div>
     )
 }

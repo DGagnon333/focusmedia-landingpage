@@ -3,7 +3,7 @@ import Offers from '../components/Offers.jsx';
 import Plan from '../components/Plan.jsx';
 import Slider from '../components/Slider.jsx';
 import Products from 'components/Products.jsx';
-import MatterportTour from 'components/MatterportTour.jsx';
+// import MatterportTour from 'components/MatterportTour.jsx';
 
 function Home(){
     return(
@@ -11,7 +11,7 @@ function Home(){
             <Hero />
             <Offers />
             <Products />
-            <MatterportTour />
+            {/* <MatterportTour /> */}
             <Plan />
             <Slider />
         </div>

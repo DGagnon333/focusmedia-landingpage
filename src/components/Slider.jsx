@@ -1,35 +1,15 @@
 import React, {useState} from 'react'
-import Outdoor1 from '@Images/outdoor1.jpg'
-import Outdoor2 from '@Images/outdoor2.jpg'
-import Outdoor3 from '@Images/outdoor3.jpg'
-import Outdoor4 from '@Images/outdoor4.jpg'
-import Outdoor5 from '@Images/outdoor5.jpg'
 import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs'
 import {RxDotFilled} from 'react-icons/rx'
 
 function Slider() {
-    const slides = [
-        {
-            url: Outdoor1,
-            title: 'Outdoor 1'
-        },
-        {
-            url: Outdoor2,
-            title: 'Outdoor 2'
-        },
-        {
-            url: Outdoor3,
-            title: 'Outdoor 3'
-        },
-        {
-            url: Outdoor4,
-            title: 'Outdoor 4'
-        },
-        {
-            url: Outdoor5,
-            title: 'Outdoor 5'
-        },
-    ];
+    const images = require.context('../images/VintageHouse', true);
+    const imageList = images.keys().map(image => images(image));
+
+    const slides = imageList.map((imageUrl, index) => ({
+        url: imageUrl,
+        title: `Outdoor ${index + 1}`
+    }));
 
     const [currentIndex, setCurrentIndex] = useState(0)
 

@@ -1,9 +1,9 @@
 import React from 'react'
-import Indoor1 from "@Images/indoor1.jpg";
-import Indoor2 from "@Images/indoor2.jpg";
-import Indoor3 from "@Images/indoor3.jpg";
-import Indoor4 from "@Images/indoor4.jpg";
-import Indoor5 from "@Images/indoor5.jpg";
+import Indoor1 from "@Images/VintageHouse/DSCF1736.jpg";
+import Indoor2 from "@Images/VintageHouse/DSCF1742.jpg";
+import Indoor3 from "@Images/VintageHouse/DSCF1746.jpg";
+import Indoor4 from "@Images/VintageHouse/DSCF1738.jpg";
+import Indoor5 from "@Images/VintageHouse/DSCF1748.jpg";
 
 function Plan() {
   return (
@@ -23,14 +23,14 @@ function Plan() {
             Contact us today to discuss your requirements and receive a personalized quote. Our 
             team is eager to assist you in bringing your vision to life.</p>
         </div>
-        <button  className=' border-black mr-4 hover:shadow-xl'> 
+        {/* <button  className=' border-black mr-4 hover:shadow-xl'> 
           <a href='/About'>
             Learn More
           </a>
         </button>
         <button className='bg-black text-white mr-4 border-black hover:shadow-xl'>
           <a href='footer'>Contact us</a>
-        </button>
+        </button> */}
     </div>
   )
 }

@@ -39,20 +39,16 @@ function Pricing(){
     ];
     return(
     <div>
-      <div className='w-full px-20 flex flex-col align-middle'>
+      <div className='w-full px-20 flex flex-col align-middle lg:w-[50%] mx-auto'>
             <h1 className='font-bold text-6xl text-center pb-8'>Pricing</h1>
-            <div className="flex flex-col items-center text-base">
-                <img src={Logo} height={200} width={200} alt="focusmedia logo" />
-                <p className='py-2'>"<strong>Revolutionize</strong> the marketing strategies of <strong>real 
+            <div className="flex flex-col items-center text-center text-xl">
+                <img src={Logo} height={200} width={200} alt="focusmedia logo" className=" py-4" />
+                <p className='py-12 border-b-2 border-t-2'>"<strong>Revolutionize</strong> the marketing strategies of <strong>real 
                 estate agents</strong> through the <strong>implementation of innovative 
                 photography</strong> and <strong>cutting-edge technological solutions</strong>."</p>
-                <p className='py-2'>"Notre objectif principal est de révolutionner complètement 
-                les stratégies marketing des agents immobiliers grâce à la mise
-                 en œuvre d'une photographie innovante et de solutions technologiques 
-                 de pointe."</p>
             </div>
         </div>
-      <div className="m-4 grid grid-cols-1 gap-4 md:grid-cols-4">
+      <div className="m-4 grid grid-cols-1 gap-4 md:grid-cols-4 py-4">
         <PricingCard
           title="Package Photos Drone"
           price="399$+tx"

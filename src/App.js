@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Pricing from './pages/Pricing';
 import Footer from './components/Footer.jsx';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
-      
+      <Analytics />
     </div>
   );
 }

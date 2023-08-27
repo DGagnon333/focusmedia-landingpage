@@ -1,19 +1,17 @@
 import Hero from '../components/Hero.jsx';
-import Offers from '../components/Offers.jsx';
-import Plan from '../components/Plan.jsx';
 import Slider from '../components/Slider.jsx';
-import Products from 'components/Products.jsx';
+import Products from '../components/Products.jsx';
+import Conclusion from '../components/Conclusion.jsx'
 // import MatterportTour from 'components/MatterportTour.jsx';
 
 function Home(){
     return(
         <div>
             <Hero />
-            <Offers />
             <Products />
             {/* <MatterportTour /> */}
-            <Plan />
             <Slider />
+            <Conclusion />
         </div>
     )
 }

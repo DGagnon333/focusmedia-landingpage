@@ -1,6 +1,6 @@
 import PricingCard from "../components/PricingCard";
 import Logo from '@Images/logo.png';
-import Image1 from '@Images/VintageHouse/DSCF1709.jpg'
+import Image1 from '@Images/HighQuality/DSCF1709.jpg'
 
 function Pricing(){
     const packagePhotos = [

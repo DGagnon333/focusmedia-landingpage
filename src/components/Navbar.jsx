@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { HiMenuAlt3 } from 'react-icons/hi';
-import {Link, useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -45,9 +45,19 @@ function Navbar() {
               Pricing
             </button>
           </li>
-          <li>
+          {/* <li>
             <button onClick={()=>{ setNav(false); navigate("/Contact")}} className='font-bold text-2xl p-8 border-0'>
               Contact
+            </button>
+          </li> */}
+          {/* <li>
+            <button onClick={()=>{ setNav(false); navigate("/AerialPhotos")}} className='font-bold text-2xl p-8 border-0'>
+              Aerial Photos
+            </button>
+          </li> */}
+          <li>
+          <button onClick={()=>{ setNav(false); navigate("/AugmentedTour")}} className='font-bold text-2xl p-8 border-0'>
+            3D Tour
             </button>
           </li>
           <li>

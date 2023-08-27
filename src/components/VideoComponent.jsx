@@ -1,5 +1,5 @@
 import LongVideo from '@Videos/FocusMedia_Kick_off_v2.mp4'
-import AlternativeImage from '@Images/VintageHouse/DJI_0384.jpg'
+import AlternativeImage from '@Images/HighQuality/DSCF1709.jpg'
 
 const VideoLoop = () => {
   return (

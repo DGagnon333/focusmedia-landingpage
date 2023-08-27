@@ -74,7 +74,7 @@ function Pricing(){
           packageInfo={packageFull}
           />
       </div>
-      <div class="flex items-center justify-center h-[800px] bg-center bg-cover bg-blur-md" style={{ backgroundImage: `url(${Image1})` }}>
+      <div class="flex items-center justify-center h-[900px] bg-center bg-cover bg-blur-md" style={{ backgroundImage: `url(${Image1})` }}>
         <div class="p-8 backdrop-blur-3xl rounded-3xl shadow-md">
           <h1 class="text-4xl font-semibold mb-6">Optional Add-Ons</h1>
           <ul class="list-disc pl-6 mb-6">

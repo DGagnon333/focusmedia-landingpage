@@ -7,7 +7,7 @@ function Matterpost() {
         <div className='w-full px-20'>
             <h1 className='font-bold text-2xl text-center'>Elevate Your Home Experience and embrace the Power of 3D Visualization!</h1>
             <div className='text-center py-12  w-[50%] self-center mx-auto'>
-                <p className='py-2 text-xl'>With a 3D render, you can truly understand how your home 
+                <p className='py-2 text-xl'>With a 3D view of your house, you can truly understand how your home 
                 design will look and feel. It's like stepping into your future home before it's even 
                 built, giving you a clear picture of the layout and design.</p>
                 <br/>
@@ -15,7 +15,7 @@ function Matterpost() {
             <div className='pb-12'>
               <Render />
             </div>
-            <h1 className='font-bold text-2xl text-center'>Immerse Yourself with Matterpost</h1>
+            <h1 className='font-bold text-2xl text-center'>Matterpost coming soon!</h1>
             <div className='text-center py-12  w-[50%] self-center mx-auto'>
                 <p className='py-2 text-xl'>With Matterpost's 3D tours, you're not just looking at 
                 a house, you're stepping inside it! Experience the layout, ambiance, and flow as if 

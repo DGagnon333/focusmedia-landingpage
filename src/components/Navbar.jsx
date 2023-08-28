@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { HiMenuAlt3 } from 'react-icons/hi';
 import {useNavigate} from "react-router-dom";
+import ClearLogo from '@Images/HorizontalClearLogo.png'
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -27,7 +28,7 @@ function Navbar() {
   return (
     <div className='sticky top-0 z-50 w-full flex justify-between p-2 items-center bg-black'>
       <button className='border-0'>
-        <h1 id="to-top-button" onClick={goToTop} className='font-["Helvetica"] text-white font-bold text-2xl z-20'>Focus Media</h1>
+        <img id="to-top-button" src={ClearLogo} alt='Focus Media' onClick={goToTop}  className='max-h-[40px] relative z-20' />
       </button>
       <HiMenuAlt3 onClick={handleNav} className='z-20 text-white cursor-pointer' size={30} />
       <div

@@ -23,15 +23,6 @@ function About(){
                 <p className='py-2 text-lg'>FocusMedia, a company that wishes to change the way 
                 we capture content for real estate agents. We want to 
                 bring more quality, perspectives and attention to detail.</p>
-                <p className='py-2 text-lg'>
-                Our first year will be the time where we introduce ourselves 
-                to the whole market of real estate agents from the North Shore
-                of Montreal to the South Shore of Montreal. Our goal for that
-                year is to build our reputation through 50 realtors in the region.
-                This will give us a good number of testimonials to prove our services
-                to other agents. This will also be the time where we set the 
-                foundation of all the systems of the company.
-                </p>
                 </div>
         </div>
     )

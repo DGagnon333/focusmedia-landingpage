@@ -5,7 +5,7 @@ export default function ContactUs() {
     function sendEmail(e) {
         e.preventDefault();
 
-    emailjs.sendForm('service_fnx8nrd', 'template_2608frm', e.target, 'oSw2yO6NldNQ8PLTh')
+    emailjs.sendForm('service_sep5zvk', 'template_bp3z0wm', e.target, 'eX86mubH8rB3HYwZL')
         .then((result) => {
             alert('Email sent!');
         }, (error) => {

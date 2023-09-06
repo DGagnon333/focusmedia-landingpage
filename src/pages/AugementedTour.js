@@ -6,7 +6,7 @@ function Matterpost() {
     <div>
         <div className='w-full px-20'>
             <h1 className='font-bold text-2xl text-center'>Elevate Your Home Experience and embrace the Power of 3D Visualization!</h1>
-            <div className='text-center py-12  w-[50%] self-center mx-auto'>
+            <div className='text-center py-12 self-center mx-auto lg:w-[50%]'>
                 <p className='py-2 text-xl'>With a 3D view of your house, you can truly understand how your home 
                 design will look and feel. It's like stepping into your future home before it's even 
                 built, giving you a clear picture of the layout and design.</p>

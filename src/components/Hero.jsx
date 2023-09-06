@@ -1,5 +1,6 @@
 import LongVideo from '@Videos/FocusMedia_Kick_off.mp4'
 import AlternativeImage from 'images/aerialPhotos/DJI_0336.jpg'
+
 const Hero = () => {
 
   const scrollToBottom = () => {
@@ -7,15 +8,15 @@ const Hero = () => {
   }
 
   return (
-    <div className='relative flex items-center justify-center h-screen overflow-hidden'>
-      <video loop autoPlay muted className="w-auto min-w-full min-h-full max-w-none" poster={AlternativeImage}>
+    <div className='flex items-center h-screen overflow-hidden'>
+      <video loop autoPlay muted className="w-auto max-w-none md:min-w-full min-h-full" poster={AlternativeImage}>
         <source src={LongVideo} type="video/mp4" />
       </video>
-      <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
-        <div className=' backdrop-blur-xl rounded-3xl md:left-[10%] max-w-[1100px] m-auto absolute p-4'>
-          <p className='z-10 max-w-[600px] drop-shadow-2xl py-2 text-3xl'>Focused on helping you elevate the quality of
+      <div className='absolute top-0 flex flex-col justify-center w-full h-full'>
+        <div className='backdrop-blur-xl rounded-3xl max-w-[400px] m-2 py-4 pl-2 md:left-[10%] absolute self-center'>
+          <p className='z-10 drop-shadow-2xl py-2 text-xl text-white'>Focused on helping you elevate the quality of
            your content with our next level drone photography services</p>
-          <button onClick={scrollToBottom} className='bg-white text-black'>Contact Us!</button>
+          <button onClick={scrollToBottom} className='flex bg-white text-black self-center mx-auto'>Contact Us!</button>
         </div>
       </div>
     </div>

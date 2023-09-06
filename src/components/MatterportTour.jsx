@@ -4,7 +4,7 @@ const MatterportTour = () => {
       <h2 className="text-4xl text-center p-4">Explore Our 3D Virtual Tour</h2>
         <div className="aspect-w-16 aspect-h-9">
           <iframe
-            title="matterpost video"
+            title="matterport video"
             framebord="0" 
             allow="fullscreen; picture-in-picture" 
             allowFullScreen

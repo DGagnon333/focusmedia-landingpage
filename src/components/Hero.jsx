@@ -3,12 +3,11 @@ import AlternativeImage from 'images/aerialPhotos/DJI_0336.jpg'
 const Hero = () => {
 
   const scrollToBottom = () => {
-    window.scrollTo(0, document.body.scrollHeight);
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })
   }
 
   return (
     <div className='relative flex items-center justify-center h-screen overflow-hidden'>
-      {/* <img className='top-0 left-0 w-full h-screen object-cover' src={Outdoor3} alt='/' /> */}
       <video loop autoPlay muted className="w-auto min-w-full min-h-full max-w-none" poster={AlternativeImage}>
         <source src={LongVideo} type="video/mp4" />
       </video>

@@ -3,7 +3,7 @@ import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs'
 import {RxDotFilled} from 'react-icons/rx'
 
 function Slider() {
-    const images = require.context('../images/HighQuality', true);
+    const images = require.context('../images/MediumQuality', true);
     const imageList = images.keys().map(image => images(image));
 
     const slides = imageList.map((imageUrl, index) => ({

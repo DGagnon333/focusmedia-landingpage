@@ -4,7 +4,7 @@ import Render from '../components/Rendering'
 function Matterpost() {
   return (
     <div>
-        <div className='w-full px-20'>
+        <div className='w-full px-12 lg:px-20'>
             <h1 className='font-bold text-2xl text-center'>Elevate Your Home Experience and embrace the Power of 3D Visualization!</h1>
             <div className='text-center py-12 self-center mx-auto lg:w-[50%]'>
                 <p className='py-2 text-xl'>With a 3D view of your house, you can truly understand how your home 

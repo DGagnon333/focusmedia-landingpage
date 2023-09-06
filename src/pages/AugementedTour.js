@@ -16,7 +16,7 @@ function Matterpost() {
               <Render />
             </div>
             <h1 className='font-bold text-2xl text-center'>Matterport coming soon!</h1>
-            <div className='text-center py-12  w-[50%] self-center mx-auto'>
+            <div className='text-center py-12  self-center mx-auto lg:w-[50%]'>
                 <p className='py-2 text-xl'>With Matterport's 3D tours, you're not just looking at 
                 a house, you're stepping inside it! Experience the layout, ambiance, and flow as if 
                 you were already there.</p>

@@ -26,9 +26,9 @@ function Navbar() {
   }
 
   return (
-    <div className='sticky top-0 z-50 w-full flex justify-between p-2 items-center bg-black'>
+    <div className='sticky top-0 z-50 w-full flex justify-between items-center bg-black'>
       <button className='border-0'>
-        <img id="to-top-button" src={ClearLogo} alt='Focus Media' onClick={goToTop}  className='max-h-[40px] relative z-20' />
+        <img id="to-top-button" src={ClearLogo} alt='Focus Media' onClick={goToTop}  className='max-h-[50px] relative z-20' />
       </button>
       <HiMenuAlt3 onClick={handleNav} className='z-20 text-white cursor-pointer' size={30} />
       <div

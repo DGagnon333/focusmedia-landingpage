@@ -9,8 +9,8 @@ const Hero = () => {
 
   return (
     <div className='flex items-center h-screen overflow-hidden'>
-      <video loop autoPlay muted playsInline className="max-w-[1500px]" poster={AlternativeImage}>
-        <source src={LongVideo} type="video/mp4" className='lg:max-w-none'/>
+      <video loop autoPlay muted playsInline className="max-w-[1500px] md:max-w-none md:min-w-full md:min-h-full" poster={AlternativeImage}>
+        <source src={LongVideo} type="video/mp4"  className='md:max-w-none'/>
       </video>
       <div className='absolute top-0 flex flex-col justify-center w-full h-full'>
         <div className='backdrop-blur-xl rounded-3xl max-w-[400px] m-2 py-4 pl-2 md:left-[10%] absolute self-center'>

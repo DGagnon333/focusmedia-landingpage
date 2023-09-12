@@ -1,7 +1,7 @@
 import Email from './Email'
 import {FaInstagram, FaTiktok} from 'react-icons/fa'
 import Logo from '@Images/Logo-ClearBackground.png'
-import CalendlyLogo from '@Images/CalendlyLogo.png'
+// import CalendlyLogo from '@Images/CalendlyLogo.png'
 
 function Footer() {
   return (
@@ -51,9 +51,9 @@ function Footer() {
                     <a href='https://www.tiktok.com/@thisisfocusmedia' rel="noreferrer" target='_blank'  className='flex items-center' >
                         <FaTiktok size={30}/>
                     </a>
-                    <a href='https://calendly.com/thisisfocusmedia/appel-one-on-one' rel="noreferrer" target='_blank' className='h-[30px] w-[100px]'>
+                    {/* <a href='https://calendly.com/thisisfocusmedia/appel-one-on-one' rel="noreferrer" target='_blank' className='h-[30px] w-[100px]'>
                         <img src={CalendlyLogo} alt='Calendly' />
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>

@@ -1,4 +1,3 @@
-import React from 'react'
 import Fade from 'react-reveal/Fade'
 import ProductsDrone from '@Images/products-drone.jpeg'
 import ProductsIndoor from '@Images/products-indoor.jpeg'

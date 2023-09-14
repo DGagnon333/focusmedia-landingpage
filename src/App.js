@@ -13,27 +13,27 @@ function ScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top of the page when the location changes
+    window.scrollTo(0, 0);
   }, [pathname]);
 
-  return null; // No need to render anything for this component
+  return null;
 }
 
 function App() {
   return (
     <div>
-    <Router>
-      <ScrollToTop />
-      <Navbar />
-      <Routes>
-        <Route path="/" exact element={<Home />} />
-        {/* <Route path="/AerialPhotos" element={<AerialPhotos />} /> */}
-        <Route path="/AugmentedTour" element={<AugementedTour />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Pricing" element={<Pricing />} />
-      </Routes>
-      <Footer />
-    </Router>
+      <Router>
+        <ScrollToTop />
+        <Navbar />
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          {/* <Route path="/AerialPhotos" element={<AerialPhotos />} /> */}
+          <Route path="/AugmentedTour" element={<AugementedTour />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Pricing" element={<Pricing />} />
+        </Routes>
+        <Footer />
+      </Router>
       <Analytics />
     </div>
   );

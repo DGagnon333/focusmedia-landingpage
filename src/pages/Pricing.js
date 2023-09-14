@@ -101,7 +101,7 @@ function Pricing() {
       >
         <div className="p-8 backdrop-blur-3xl rounded-3xl shadow-md">
           <h1 className="text-4xl font-semibold mb-6">Optional Add-Ons</h1>
-          <ul className="list-disc pl-6 mb-6">
+          <ul className="list-disc pl-6 mb-6 text-white">
             <li>Night photography from the outside</li>
             <li>Matterport 3D tour</li>
             <li>Additional photos</li>
@@ -109,7 +109,7 @@ function Pricing() {
             <li>3D model</li>
           </ul>
 
-          <p className="text-center mt-6 text-lg">
+          <p className="text-center font-semibold text-white mt-6">
             If you have some specific requests or just want a portion of a
             certain package, contact us and we will work something out!
           </p>

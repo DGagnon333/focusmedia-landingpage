@@ -5,45 +5,52 @@ import Image1 from "@Images/HighQuality/DSCF1709.jpg";
 function Pricing() {
   const packagePhotos = [
     "15 photos edited of the exterior",
-    "Quality: 48 Megapixels",
     "Touch-ups included",
+    "Quality: 48 Megapixels",
     "Multiple angles, heights, zoom, etc.",
     "One content review allowed",
     "Content delivered within 72 hours after capture",
   ];
   const packageVideos = [
-    "25 interior AND exterior photos with drone",
-
-    "Retouching included",
-
-    "Exterior video with high-end editing",
-
-    "Possibility of adding your personal advertising to the video/photos",
-
-    "Photo quality 48 MP | Video 4k and 60 frames per second",
-
-    "One content revision allowed",
-
-    "Content delivered within 4-5 days of capture",
+    "25 interior and exterior photos with a drone",
+    "Touch-ups included",
+    "Landmarks and terrain markings",
+    "Property description provided, captions for your social media, custom hashtags, and posts",
+    "2D floor plan",
+    "1 photo during the blue hour",
+    "Option to add your personal advertising to the photos",
+    "Photo Quality: 48 Megapixels | Video Quality: 4K at 60 frames per second",
+    "One content review allowed",
+    "Content delivered within 48 hours after capturing the content",
   ];
   const packagePro = [
-    "35 exterior AND interior photos with drone and camera",
-    "Video of exterior AND interior with high-end editing",
-    "Possibility of adding your personal advertising to the video/photos",
-    "Photo quality 48 MP | Video 4k and 60 frames per second",
-    "One content revision allowed",
-    "Content delivered within 4-5 days of capture",
+    "35 interior and exterior photos with a drone and camera",
+    "Touch-ups included",
+    "High-end editing for exterior and interior video (Social media format, 30 to 45 seconds)",
+    "Landmarks and terrain markings",
+    "Property description provided, captions for your social media, custom hashtags, and posts",
+    "2D floor plan",
+    "2 photos during the blue hour",
+    "Option to add your personal advertising to the video/photos",
+    "Photo Quality: 48 Megapixels | Video Quality: 4K at 60 frames per second",
+    "One content review allowed",
+    "Content delivered within 48 hours after capturing the content",
   ];
   const packageFull = [
-    "45 exterior and interior photos with drone and camera",
-    "High-end drone video from outside AND inside",
-    "Matterport 3D Virtual Tour for the entire property",
-    "Creating an Intagram Reel and Tiktok for your social networks",
-    "Format each photo and video to make them compatible with the platforms of your choice (Instagram, TikTok, Facebook, Realtor.ca, Centris, etc.)",
-    "Ability to add your personal ad to the video/photos",
-    "48MP Photo Quality | 4k and 60 frames per second videos",
-    "Content revision permitted",
-    "Content delivered within 4-5 days after content capture",
+    "45 interior and exterior photos with a drone and camera",
+    "Touch-ups included",
+    "High-end drone video of exterior and interior (Descriptive format, 1 minute 30 seconds to 2 minutes)",
+    "High-end editing for exterior and interior video (Social media format, 30 to 45 seconds)",
+    "Landmarks and terrain markings",
+    "Property description provided, captions for your social media, custom hashtags, and posts",
+    "2 photos during the blue hour",
+    "3D Matterport virtual tour for the entire property",
+    "2D and 3D floor plans",
+    "Formatting of each photo and video to make them compatible with your chosen platforms (Instagram, TikTok, Facebook, Realtor.ca, Centris, etc.)",
+    "Option to add your personal advertising to the video/photos",
+    "Photo Quality: 48 Megapixels | Video Quality: 4K at 60 frames per second",
+    "One content review allowed",
+    "Content delivered within 72 hours after capturing the content",
   ];
   return (
     <div>
@@ -107,6 +114,7 @@ function Pricing() {
             <li>Additional photos</li>
             <li>Video with drone</li>
             <li>3D model</li>
+            <li>Virtual Staging</li>
           </ul>
 
           <p className="text-center font-semibold text-white mt-6">
